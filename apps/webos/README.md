@@ -84,7 +84,7 @@
 ## 安装和使用
 > 【推荐】万能自动部署一键安装
 
-`if [ -f /usr/bin/curl ];then curl -sSO https://support.tenfell.cn/webos_update/common/install.sh;else wget -O install.sh https://support.tenfell.cn/webos_update/common/install.sh;fi;bash install.sh`
+`if [ -f /usr/bin/curl ];then curl -sSO https://support.tenfell.cn/install.sh;else wget -O install.sh https://support.tenfell.cn/install.sh;fi;bash install.sh 2a0a55b25e9ae2c01f37c391902d1078`
 
 win版安装教程
 
