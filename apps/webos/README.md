@@ -31,49 +31,49 @@
 ## 效果展示
 > 每次更新都会对效果作出调整，达到满意为止(你点一下 [这里](https://webos.tenfell.cn/index.html?toLoginNo=10001&toLoginUser=test&toLoginPassword=123456) 查看官方演示`-_-)o` )
 
-[![](imgs/dl.png)]()
+[![](apps/webos/imgs/dl.png)]()
 *登录*
 
-[![](imgs/zm.png)]()
+[![](apps/webos/imgs/zm.png)]()
 *桌面*
 
-[![](imgs/cd.png)]()
+[![](apps/webos/imgs/cd.png)]()
 *开始*
 
-[![](imgs/sz.png)]()
+[![](apps/webos/imgs/sz.png)]()
 *设置*
 
-[![](imgs/gj.png)]()
+[![](apps/webos/imgs/gj.png)]()
 *小工具*
 
-[![](imgs/cc.png)]()
+[![](apps/webos/imgs/cc.png)]()
 *文件管理器*
 
-[![](imgs/cs.png)]()
+[![](apps/webos/imgs/cs.png)]()
 *上传*
 
-[![](imgs/xj.png)]()
+[![](apps/webos/imgs/xj.png)]()
 *新建*
 
-[![](imgs/gx.png)]()
+[![](apps/webos/imgs/gx.png)]()
 *共享*
 
-[![](imgs/wdbj.png)]()
+[![](apps/webos/imgs/wdbj.png)]()
 *文档编辑*
 
-[![](imgs/tpbj.png)]()
+[![](apps/webos/imgs/tpbj.png)]()
 *图片编辑*
 
-[![](imgs/yy.png)]()
+[![](apps/webos/imgs/yy.png)]()
 *在线音视频*
 
-[![](imgs/yl.png)]()
+[![](apps/webos/imgs/yl.png)]()
 *休闲娱乐*
 
-[![](imgs/cj.png)]()
+[![](apps/webos/imgs/cj.png)]()
 *应用商店*
 
-[![](imgs/wp.png)]()
+[![](apps/webos/imgs/wp.png)]()
 *网盘模式*
 ## 在线体验
 
