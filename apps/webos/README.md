@@ -1,105 +1,166 @@
-<div align="center">
-  <a href="https://alist.nn.ci"><img height="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
-  <p><em>🗂一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。</em></p>
-<div>
-  <a href="https://goreportcard.com/report/github.com/alist-org/alist/v3">
-    <img src="https://goreportcard.com/badge/github.com/alist-org/alist/v3" alt="latest version" />
-  </a>
-  <a href="https://github.com/Xhofe/alist/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Xhofe/alist" alt="License" />
-  </a>
-  <a href="https://github.com/Xhofe/alist/actions?query=workflow%3ABuild">
-    <img src="https://img.shields.io/github/actions/workflow/status/Xhofe/alist/build.yml?branch=main" alt="Build status" />
-  </a>
-  <a href="https://github.com/Xhofe/alist/releases">
-    <img src="https://img.shields.io/github/release/Xhofe/alist" alt="latest version" />
-  </a>
-  <a title="Crowdin" target="_blank" href="https://crwd.in/alist">
-    <img src="https://badges.crowdin.net/alist/localized.svg">
-  </a>
-</div>
-<div>
-  <a href="https://github.com/Xhofe/alist/discussions">
-    <img src="https://img.shields.io/github/discussions/Xhofe/alist?color=%23ED8936" alt="discussions" />
-  </a>
-  <a href="https://discord.gg/F4ymsH4xv2">
-    <img src="https://img.shields.io/discord/1018870125102895134?logo=discord" alt="discussions" />
-  </a>
-  <a href="https://github.com/Xhofe/alist/releases">
-    <img src="https://img.shields.io/github/downloads/Xhofe/alist/total?color=%239F7AEA&logo=github" alt="Downloads" />
-  </a>
-  <a href="https://hub.docker.com/r/xhofe/alist">
-    <img src="https://img.shields.io/docker/pulls/xhofe/alist?color=%2348BB78&logo=docker&label=pulls" alt="Downloads" />
-  </a>
-  <a href="https://alist.nn.ci/zh/guide/sponsor.html">
-    <img src="https://img.shields.io/badge/%24-sponsor-F87171.svg" alt="sponsor" />
-  </a>
-</div>
-</div>
+# 仿Windows 11 网页版 私有云
+# 腾飞Webos
 
----
-
-[English](./README.md) | 中文 | [Contributing](./CONTRIBUTING.md) | [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
-
-## 功能
-
-- [x] 多种存储
-    - [x] 本地存储
-    - [x] [阿里云盘](https://www.aliyundrive.com/)
-    - [x] OneDrive / Sharepoint（[国际版](https://www.office.com/), [世纪互联](https://portal.partner.microsoftonline.cn),de,us）
-    - [x] [天翼云盘](https://cloud.189.cn) (个人云, 家庭云)
-    - [x] [GoogleDrive](https://drive.google.com/)
-    - [x] [123云盘](https://www.123pan.com/)
-    - [x] FTP / SFTP
-    - [x] [PikPak](https://www.mypikpak.com/)
-    - [x] [S3](https://aws.amazon.com/cn/s3/)
-    - [x] [Seafile](https://seafile.com/)
-    - [x] [又拍云对象存储](https://www.upyun.com/products/file-storage)
-    - [x] WebDav(支持无API的OneDrive/SharePoint)
-    - [x] Teambition（[中国](https://www.teambition.com/ )，[国际](https://us.teambition.com/ )）
-    - [x] [分秒帧](https://www.mediatrack.cn/)
-    - [x] [和彩云](https://yun.139.com/) (个人云, 家庭云)
-    - [x] [Yandex.Disk](https://disk.yandex.com/)
-    - [x] [百度网盘](http://pan.baidu.com/)
-    - [x] [夸克网盘](https://pan.quark.cn)
-    - [x] [迅雷网盘](https://pan.xunlei.com)
-    - [x] [蓝奏云](https://www.lanzou.com/)
-    - [x] [阿里云盘分享](https://www.aliyundrive.com/)
-    - [x] [谷歌相册](https://photos.google.com/)
-    - [x] [Mega.nz](https://mega.nz)
-    - [x] [一刻相册](https://photo.baidu.com/)
-    - [x] SMB
-    - [x] [115](https://115.com/)
-    - [X] Cloudreve
-- [x] 部署方便，开箱即用
-- [x] 文件预览（PDF、markdown、代码、纯文本……）
-- [x] 画廊模式下的图像预览
-- [x] 视频和音频预览，支持歌词和字幕
-- [x] Office 文档预览（docx、pptx、xlsx、...）
-- [x] `README.md` 预览渲染
-- [x] 文件永久链接复制和直接文件下载
-- [x] 黑暗模式
-- [x] 国际化
-- [x] 受保护的路由（密码保护和身份验证）
-- [x] WebDav (具体见 https://alist.nn.ci/zh/guide/webdav.html)
-- [x] [Docker 部署](https://hub.docker.com/r/xhofe/alist)
-- [x] Cloudflare workers 中转
-- [x] 文件/文件夹打包下载
-- [x] 网页上传(可以允许访客上传)，删除，新建文件夹，重命名，移动，复制
-- [x] 离线下载
-- [x] 跨存储复制文件
-
-## 文档
-
-<https://alist.nn.ci/zh/>
-
-## 使用
-
-在容器中执行 ./alist admin 获取密码
+> 腾飞WebOS是一个支持多种存储。
+> 云端存储&协同办公新体验 如Windows11体验的私有云盘/企业网盘。
+> 🎉🎉全平台兼容性：Win、Linux、Mac、Docker (Apache、Nginx、IIS)。从百元级别的智能路由器和盒子产品
+> 到NAS网络存储设备，到服务器面板，服务器，硬件集成，ERP集成，私有云、公有云、SaaS服务搭建等各种场景都可自如适用
+支持跨平台浏览器的无缝访问。仅需一个浏览器即在web端完成文档的上传下载、管理查看，不需要安装任何类似ftp客户端的软件。
+> 只需要一个浏览器，三端都能访问 ✨PC✨H5✨ipad🎊🎈`o(^o^)o`
 
 
-## 讨论
+- [腾飞Webos 网页版](https://os.tenfell.cn/)
+  - [前言](#前言)
+  - [效果展示](#效果展示)
+  - [在线体验](#在线体验)
+  - [安装和使用](#安装和使用)
+  - [网盘挂载](#网盘挂载)
+  - [部分功能](#部分功能)
+  - [问答](#问答)
 
-一般问题请到[讨论论坛](https://github.com/Xhofe/alist/discussions) ，**issue仅针对错误报告和功能请求。**
+## 前言
+腾飞Webos是免费的，个人随意部署，应用商店提供大量插件,且全部免费, [更新日志](https://os.tenfell.cn/update) ←。
+
+参考API[插件开发](https://thoughts.teambition.com/share/64531c70be7a0f004263891d)
+
+仿win11的操作习惯，占用内存小，各种高级的功能(支持开发者自行开发插件)
+> 安卓、IOS，桌面版火速开发中....... `>v-)o`
 
 
+
+## 效果展示
+> 每次更新都会对效果作出调整，达到满意为止(你点一下 [这里](https://webos.tenfell.cn/index.html?toLoginNo=10001&toLoginUser=test&toLoginPassword=123456) 查看官方演示`-_-)o` )
+
+[![](imgs/dl.png)]()
+*登录*
+
+[![](imgs/zm.png)]()
+*桌面*
+
+[![](imgs/cd.png)]()
+*开始*
+
+[![](imgs/sz.png)]()
+*设置*
+
+[![](imgs/gj.png)]()
+*小工具*
+
+[![](imgs/cc.png)]()
+*文件管理器*
+
+[![](imgs/cs.png)]()
+*上传*
+
+[![](imgs/xj.png)]()
+*新建*
+
+[![](imgs/gx.png)]()
+*共享*
+
+[![](imgs/wdbj.png)]()
+*文档编辑*
+
+[![](imgs/tpbj.png)]()
+*图片编辑*
+
+[![](imgs/yy.png)]()
+*在线音视频*
+
+[![](imgs/yl.png)]()
+*休闲娱乐*
+
+[![](imgs/cj.png)]()
+*应用商店*
+
+[![](imgs/wp.png)]()
+*网盘模式*
+## 在线体验
+
+[在线预览](https://webos.tenfell.cn/index.html?toLoginNo=10001&toLoginUser=test&toLoginPassword=123456)
+
+
+
+## 安装和使用
+> 【推荐】万能自动部署一键安装
+
+`if [ -f /usr/bin/curl ];then curl -sSO https://support.tenfell.cn/webos_update/common/install.sh;else wget -O install.sh https://support.tenfell.cn/webos_update/common/install.sh;fi;bash install.sh`
+
+win版安装教程
+
+[点击查看](https://os.tenfell.cn/711.html)
+
+linux版部署教程
+
+[点击查看](https://os.tenfell.cn/685.html)
+
+MAC版部署教程
+
+[点击查看](https://os.tenfell.cn/1049.html)
+
+宝塔版部署教程
+
+[点击查看](https://os.tenfell.cn/696.html)
+
+Docker版部署教程
+
+[点击查看](https://os.tenfell.cn/1042.html)
+
+群辉版部署教程
+
+[点击查看](https://os.tenfell.cn/667.html)
+
+
+## 网盘挂载
+已支持挂载的部分网盘:
+- [√] 阿里云盘
+- [√] 天翼云盘
+- [√] 百度云盘
+- [√] 夸克网盘
+- [√] 一刻相册
+- [√] 115网盘
+- [√] OneDrive
+- [√] 123云盘
+- [√] WebDav
+- [√] 本地磁盘
+- [x] 迅雷网盘
+- [x] 移动云盘
+- [x] 曲奇网盘
+
+## 部分功能
+下面是一些常用功能 `~o~)/`
+- [√] 第三方登录
+- [√] 离线下载
+- [√] 网页上传/下载（删除、mkdir、重命名、移动/复制/剪切/粘贴）
+- [√] 全盘断点续传(意外断网,刷新,重新在同一个目录选同一个文件能接着传)
+- [√] 跨盘秒传(任意盘之间复制粘贴会检测是否支持,不支持采用先下载再上传)
+- [√] 文件编辑预览(文本,代码,文档,图片等在线编辑和预览,后面会支持更多)
+- [√] 协同办公(采用金山文档绑定文件支持协同办公)
+- [√] 直连上传(全盘支持从浏览器直接上传到服务器,不经过中转)
+- [√] 直连下载(全盘支持从服务器直接下载文件到本地,不经过中转)
+- [√] 独立的应用商店（可下载应用插件、后期可注册开发者发布自己制作的插件）
+- [√] 文件永久链接复制和直接文件下载
+- [√] 全盘文件分享（可控制是否允许下载）
+- [√] 用户权限管控
+> 更多功能就不意义介绍了，请到官网体验
+
+## 问答
+AD:腾飞webos是干什么的\
+AN:腾飞ebos是一款免费的个人私有云
+
+AD:支持什么环境安装部署\
+AN:基本支持全平台部署`-_-)o`
+
+AD:我能用webos做什么\
+AN:在任何场景下，只需要一个浏览器就能在线办公
+
+AD:腾飞webos后期会收费吗\
+AN:腾飞webos对个人用户是免费的，即使是中小企业，
+我们提供的方案也够您使用，不会强制转换收费模式。
+
+P:应用商店插件以后会不会收费\
+AN:官方提供的插件永不收费，第三方作者自行开发的
+插件，我们不保证存在赞助或关注要求。
+
+
+最近准备重绘图标,大家觉得这个logo怎么样`>_-)o`
