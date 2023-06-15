@@ -31,7 +31,7 @@
 ## 效果展示
 > 每次更新都会对效果作出调整，达到满意为止(你点一下 [这里](https://webos.tenfell.cn/index.html?toLoginNo=10001&toLoginUser=test&toLoginPassword=123456) 查看官方演示`-_-)o` )
 
-[![](apps/webos/imgs/dl.png)]()
+[![](https://github.com/a79521/appstore/tree/main/apps/webos/imgs/dl.png)]()
 *登录*
 
 [![](apps/webos/imgs/zm.png)]()
