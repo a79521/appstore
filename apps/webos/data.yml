@@ -1,0 +1,20 @@
+name: webos
+tags:
+    - 工具
+title: 可视化网盘面板多存储系统
+type: 工具
+description: 可视化网盘面板多存储系统
+additionalProperties:
+    key: webos
+    name: webos
+    tags:
+        - Tool
+    shortDescZh: 可视化网盘面板多存储系统
+    shortDescEn: Visualization Panel Network Disk Multi Storage System
+    type: tool
+    crossVersionUpdate: true
+    limit: 1
+    recommend: 0
+    website: https://os.tenfell.cn/439.html?from=2a0a55b25e9ae2c01f37c391902d1078
+    github: https://os.tenfell.cn/439.html?from=2a0a55b25e9ae2c01f37c391902d1078
+    document: https://os.tenfell.cn/439.html?from=2a0a55b25e9ae2c01f37c391902d1078
